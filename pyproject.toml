@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "http-xmas"
+version = "0.1.0"
+description = ""
+authors = ["Simon Hawe <simon.hawe@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = "^0.9.4"
+aiofiles = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+black = "19.10b"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
